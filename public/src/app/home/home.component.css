@@ -1,0 +1,44 @@
+.head {
+  margin-left: 25px;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.box {
+  border-bottom-color: black;
+  border-width: 3px;
+  border-style: inset;
+  width: 24%;
+  margin-top: 25px;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.inside {
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.grams {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+nav {
+  color: lightblue;
+}
+
+.right {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 25px;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 25px;
+  width: 500px;
+}
