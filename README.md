@@ -20,17 +20,15 @@ With a single push of a button, grandma can message the people on her contact li
 ![granny](https://user-images.githubusercontent.com/42421298/49756594-2a892300-fc6f-11e8-8557-5c433a62cd03.PNG)
 
 ### Technology Used:
-Amazon Dash Button </br>
-Amazon lambda </br>
-Amazon S3 Bucket </br>
-Amazon SES </br>
-Amazon EC2 </br>
-Nexmo </br>
-Audacity </br>
-github.io </br>
-node.js </br>
-Angular </br>
-
+* AWS Dash Button - Used to trigger Lambda function
+* AWS S3 - Used to host the .zip file of the Lambda function
+* AWS Lambda - Encompasses all components of the Lambda function
+* Nexmo API - Used for voicemail and text messages
+* Audacity - Used to create custom voicemail
+* AWS SES - Used for email messaging
+* GitHub.io - Used to host the .json files routing to .mp3 & text msg
+* MEAN - Used to build out user portal for adding family members to distrubution list
+* AWS EC2 - Used to deploy MEAN project online
 
 ### Team Members:
 [Jairo Burgos Jr.](https://github.com/jburgosjr)</br>
