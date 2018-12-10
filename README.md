@@ -8,7 +8,7 @@
 
 <b>The Goal:</b> Create a tool that can be utilized by anyone to help your community, be it the Dojo, your neighborhood, your city, even the country as a whole. 
 
-<b>The Challenge:</b> Implement your solution using AWS Lambda functions, and work under the impression that your entire app can function starting with a single press of an Amazon Dash Button. Try and incorporate as many Amazon web services and you can. 
+<b>The Challenge:</b> Implement your solution using AWS Lambda functions, and work under the impression that your entire app can function starting with a single press of an Amazon Dash Button. Try and incorporate as many Amazon web services as you can. 
 
 ![22](https://user-images.githubusercontent.com/42421298/49755156-fe6ca280-fc6c-11e8-8975-c4aa4052da92.jpg)
 
