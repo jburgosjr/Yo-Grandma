@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Yo! Grandma</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body>
+      <nav class="navbar navbar-light" style="background-color: white; height: 60px;">
+        <h2 class="head">Yo! Grandma</h2>   
+      </nav>
+    <div class ="box">
+      <div class="inside">
+        <h3><u>Notification sign up!</u></h3>
+        <form (submit)="addFamilyMember()">
+          <b>Name:</b> <input type="text" class="form-control col-10" name="newFamilyMember.name" [(ngModel)]="newFamilyMember.name"><br><br>
+          <b>Notification type:</b> 
+          <select name="format" class="form-control col-10" name="newFamilyMember.format" [(ngModel)]="newFamilyMember.format">
+            <option value="Email">Email</option>
+            <option value="Text Message">Text Message</option>
+            <option value="Phone Call">Phone Call</option>
+          </select><br><br>
+          <b>Phone:</b><input type="text" class="form-control col-10" name="newFamilyMember.number" [(ngModel)]="newFamilyMember.number"><br><br>
+          <b>Email:</b><input type="text" class="form-control col-10" name="newFamilyMember.email" [(ngModel)]="newFamilyMember.email"><br><br>
+          <button type="submit" class="btn btn-dark">Sign Up!</button>
+        </form>
+        </div>
+    </div>
+    <div class="grams">
+      <img src="assets/grams.jpg" style="width:400px;height:400px;"/>
+    </div>
+    <div class="right">
+      <p>Has your grandma ever wanted to get ahold of you but wasn't sure how to use her cell phone to dial you?</p><br>
+      <p>With "Yo! Grandma" your grandma can make sure you know she wants to talk to you.</p><br>
+      <p>Sign up now to get notified when grandma wants to chat!</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
